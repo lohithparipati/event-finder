@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "intent": "GetFirstEventIntent",
+      "slots": [
+        {
+          "name": "city",
+          "type": "LIST_OF_CITIES"
+        }
+      ]
+    },
+    {
+      "intent": "GetNextEventIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
